@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mislibrosraulhora.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item android:title="Editar"
+        android:id="@+id/edit"
+        android:icon="@drawable/edit"
+        android:orderInCategory="95"
+        app:showAsAction="ifRoom"/>
+
+    <item android:title="Guardar"
+        android:id="@+id/guardar"
+        android:icon="@drawable/save"
+        app:showAsAction="ifRoom|withText"/>
+
+    <item android:title="Eliminar"
+        android:id="@+id/eliminar"
+        android:icon="@drawable/delete"
+        android:orderInCategory="90"
+        app:showAsAction="always|collapseActionView"/>
+</menu>
